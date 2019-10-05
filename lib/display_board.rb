@@ -3,11 +3,14 @@
 
 
 def display_board(board)
-  puts "   |   |   "
+  puts board[0]
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
-  puts "   |   |   "
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-board = ["O", "X", " ", " ", "X", " "]
+
+board = ["X", "O", " ", " ", " ", " ","X", " ", " "]
+display_board(board)
